@@ -16,4 +16,6 @@ def inicia_jogo(opcao):
     elif(opcao == '2'):
         forca.jogar()
 
-starta_menu()
+
+if (__name__ == "__main__"):
+    starta_menu()
